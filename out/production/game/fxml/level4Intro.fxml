@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="root" prefHeight="530" prefWidth="800" xmlns:fx="http://javafx.com/fxml/1" stylesheets="/fxml/CSS/style.css" xmlns="http://javafx.com/javafx/8.0.112" fx:controller="logic.L4IntroController">
+    <children>
+        <Label fx:id="result" layoutX="300" layoutY="30" minHeight="20" minWidth="69" text="Scenario Four">
+            <font>
+                <Font name="Arial" size="30" />
+            </font>
+        </Label>
+        <Label fx:id="line1" layoutX="40" layoutY="70" text="In this scenario you had a weekend long trip with your society.&#xD;On the Saturday you revived a text from a friend saying that your&#xD;housemates hosted a crazy party.&#xD;">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+        <Label fx:id="line2" layoutX="40" layoutY="170" text="It couldn’t have been that crazy right?&#xD;Right?">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+
+        <Button fx:id="transbutton" layoutX="600" layoutY="420" onAction="#handleButtonAction" text="Page transition" />
+    </children>
+</AnchorPane>

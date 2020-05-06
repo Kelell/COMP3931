@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="root" prefHeight="530" prefWidth="800" xmlns:fx="http://javafx.com/fxml/1" stylesheets="/fxml/CSS/style.css" xmlns="http://javafx.com/javafx/8.0.112" fx:controller="logic.L3IntroController">
+    <children>
+        <Label fx:id="result" layoutX="300" layoutY="30" minHeight="20" minWidth="69" text="Scenario Three">
+            <font>
+                <Font name="Arial" size="30" />
+            </font>
+        </Label>
+        <Label fx:id="line1" layoutX="40" layoutY="70" text="In this scenario you are living in student accommodation and have set&#xD;up a cleaning rotation with your housemates.">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+        <Label fx:id="line2" layoutX="40" layoutY="150" text="You suspect that the before before your turn isn’t cleaning at all, so you&#xD;decide to check the kitchen to confirm your suspections.&#xD;Have they been cleaning?">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+
+        <Button fx:id="transbutton" layoutX="600" layoutY="420" onAction="#handleButtonAction" text="Page transition" />
+    </children>
+</AnchorPane>

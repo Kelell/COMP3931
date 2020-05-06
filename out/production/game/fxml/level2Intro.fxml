@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="root" prefHeight="530" prefWidth="800" xmlns:fx="http://javafx.com/fxml/1" stylesheets="/fxml/CSS/style.css" xmlns="http://javafx.com/javafx/8.0.112" fx:controller="logic.L2IntroController">
+    <children>
+        <Label fx:id="result" layoutX="300" layoutY="30" minHeight="20" minWidth="69" text="Scenario Two">
+            <font>
+                <Font name="Arial" size="30" />
+            </font>
+        </Label>
+        <Label fx:id="line1" layoutX="40" layoutY="70" text="In this scenario you are leaving for university lectures and won't be back&#xD;until the evening.">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+        <Label fx:id="line2" layoutX="40" layoutY="150" text="You don't have much time but you know that dorm supervisors could poke&#xD;their heads into your room to check on it.&#xD;Can you leave your without getting a warning from them?">
+            <font>
+                <Font name="Arial" size="20" />
+            </font>
+        </Label>
+
+        <Button fx:id="transbutton" layoutX="600" layoutY="420" onAction="#handleButtonAction" text="Page transition" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,163 @@
+#root{
+ -fx-background-image:url("background.png");
+ -fx-background-size: 823,565;
+ -fx-background-radius: 30, 30, 29, 28;
+}
+
+
+#transbutton{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 15px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+ -fx-min-width: 100px;
+}
+
+#yes{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 15px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+ -fx-min-width: 150px;
+}
+
+#no{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 15px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+ -fx-min-width: 150px;
+}
+
+#transbutton:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button1{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button1:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button2{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button2:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button3{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button3:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button4{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button4:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button5{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button5:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#button6{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 30px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#button6:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#yes{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 15px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#yes:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#no{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 10px 15px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+}
+#no:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+}
+
+#score{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 50px 70px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+ -fx-min-width: 150px;
+}
+
+#score:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+ }
+
+#rankbutton{
+ -fx-background-color: LightGrey;
+ -fx-transition-duration: 0.4s;
+ -fx-padding: 20px 60px;
+ -fx-font-size: 20px;
+ -fx-border-radius: 12px;
+ -fx-min-width: 200px;
+  -fx-font-size: 40px;
+}
+
+#rankbutton:hover{
+ -fx-background-color: GhostWhite;
+ -fx-colour: white;
+ }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- Create a 800x500 page and link it to it's controller-->
+
+<AnchorPane id="root" prefHeight="530" prefWidth="800" stylesheets="@../fxml/CSS/style.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.L3S1Controller">
+    <children>
+        <!-- Add the image buttons -->
+        <Button fx:id="button1" layoutX="600" layoutY="120" minWidth="175" onAction="#firstButton" text="Sink" />
+        <Button fx:id="button2" layoutX="600" layoutY="180" minWidth="175" onAction="#secondButton" text="Fridge" />
+        <Button fx:id="button3" layoutX="600" layoutY="240" minWidth="175" onAction="#thirdButton" text="Hob" />
+        <Button fx:id="button4" layoutX="600" layoutY="300" minWidth="175" onAction="#fourthButton" text="Counter" />
+        <Button fx:id="button5" layoutX="600" layoutY="360" minWidth="175" onAction="#fifthButton" text="Floor" />
+        <Button fx:id="button6" layoutX="600" layoutY="420" minWidth="175" onAction="#sixthButton" text="Cupboard" />
+
+        <!-- Stage transition-->
+        <Button fx:id="transbutton" layoutX="600" layoutY="420" onAction="#handleButtonTransition" text="Page transition" visible="false" />
+        <!-- Add the labels-->
+        <Label fx:id="label" layoutX="575.0" layoutY="60.0" minHeight="20" minWidth="69" prefHeight="43.0" prefWidth="224.0" text="Views Left: 4">
+            <font>
+                <Font name="Arial" size="33" />
+            </font>
+        </Label>
+
+        <Label fx:id="lview" layoutX="100" layoutY="30" minHeight="20" minWidth="70" text="">
+            <font>
+                <Font name="Arial" size="25" />
+            </font>
+        </Label>
+
+        <ImageView fx:id="imageView" fitHeight="436.0" fitWidth="455.0" layoutX="40.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+    </children>
+</AnchorPane>
